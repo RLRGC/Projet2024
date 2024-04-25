@@ -1,0 +1,83 @@
+/* Boutons version MiniProjet*/
+:root{
+    --Fond:rgb(107, 1, 168); /* Variable de la couleur Marron */
+    --Ecriture:rgb(37,223,0); /* Variable de couleur crême */
+    --FondFlex : rgba(36,36,36,1);/*Couleur MarronCrême*/
+}
+/*Bouton noir */
+.BoutonBZHNoir{
+    background: linear-gradient(rgba(10,10,10),rgba(50,50,50));
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+    transition: 1s;
+    color: var(--Ecriture);
+}
+.BoutonBZHNoir:hover{
+    background: linear-gradient(rgba(100,100,100),rgba(20,20,20));
+    color: var(--Ecriture);
+}
+.BoutonBZHNoir:active{
+    position: relative;
+    top: 8px;
+    color: var(--Ecriture);
+}
+/*Bouton noir */
+
+/*Bouton Rouge */
+.BoutonBZHRouge{
+    background: linear-gradient(rgb(109, 4, 4),rgb(208, 5, 5));
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+}
+.BoutonBZHRouge:hover{
+    background: linear-gradient(rgba(208,5,5),rgba(109,4,4));
+}
+.BoutonBZHRouge:active{
+    position: relative;
+    top: 8px;
+}
+/*Bouton Rouge*/
+
+/*Bouton Bleu Clair*/
+.BoutonBZHBleuClair{
+    background: linear-gradient(rgb(38, 107, 255),rgb(175, 185, 255));
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+	transition:1s;
+    color:white;
+}
+.BoutonBZHBleuClair:hover{
+    background: linear-gradient(rgba(129,41,255),rgba(204,156,255));
+}
+.BoutonBZHBleuClair:active{
+    position: relative;
+    top: 30px;
+}
+/*Bouton Bleu Clair*/
+
+/*Bouton Vert*/
+
+.BoutonBZHVert{
+    background: linear-gradient(rgb(0,255,130),rgb(167,255,195));
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+	transition:1s;
+    color:white;
+}
+.BoutonBZHVert:hover{
+    background: linear-gradient(rgba(182, 243, 255),rgba(0, 218, 255));
+}
+.BoutonBZHVert:active{
+    position: relative;
+    top: 30px;
+}
+
+/*Bouton Vert */
+
+

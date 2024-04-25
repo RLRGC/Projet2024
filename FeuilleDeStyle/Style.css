@@ -1,0 +1,101 @@
+:root{
+    --Beige: rgba(255, 218, 179); /* Variable de couleur de fond */
+    --BleuClair : rgba(42, 57, 144);
+    --Bleu : rgba(33, 45, 116);
+}
+
+body{
+    background: var(--Bleu);
+    color: var(--Beige);
+}
+
+#Titre{
+    text-align: center;
+    margin: auto;
+    font-size: 150%;
+    width: 50%;
+    border: 5px var(--Beige) solid;
+    background: var(--BleuClair);
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+/* NAV */
+nav{
+    background: var(--BleuClair);
+    padding: 20px;
+}
+nav button{
+    color: var(--Beige);
+    text-decoration: dotted;
+    margin-left: 30%;
+    border: 3px var(--Beige) solid;
+    border-radius: 20%;
+    padding: 20px;
+    background: var(--BleuClair)
+}
+
+nav button:hover{
+    background: var(--Bleu);
+
+}
+
+#Plan{
+    margin: 5%;
+}
+#Plan button{
+	margin-left:22.5%;
+}
+
+#Informations{
+    display: none; 
+}
+
+/*Carte / Tableau*/
+
+#RDC {
+	background: url(../Images/2024-03-22_16.33.00.png) no-repeat;
+	border: 5px var(--Beige) solid;
+	display: none; 
+	margin:2%;
+}
+
+#RDC td{
+    width: 19.99%;/*155px*/
+    height: 100px;
+    border: 2px black solid;
+
+}
+
+#Etage1 th{
+	display:none;
+}
+#Etage1 tbody{
+	background: url(../Images/Etage1.png) no-repeat;
+	border: 5px var(--Beige) solid;
+	display: none; 
+	margin:2%;
+}
+
+#Etage1 td{
+	width: 19.99%;/*155px*/
+    height: 100px;
+    border: 2px black solid;
+
+}
+#Etage2{
+	display:none;
+}
+#Etage2{
+	background: url(../Images/2024-03-22_16.33.00.png) no-repeat;
+	border: 5px var(--Beige) solid;
+	display: none; 
+	margin:2%;
+}
+
+#Etage2 td{
+	width: 19.99%;/*155px*/
+    height: 100px;
+    border: 2px black solid;
+
+}
