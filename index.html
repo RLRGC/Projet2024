@@ -11,10 +11,12 @@
 </head>
 <body>
     <section id="Entete">
+        <!--
         <nav>
             <button onclick="Control()">Controle</button>
             <button onclick="Information()">Informations</button>
         </nav>
+        -->
         <div id="Titre">
             <h1>Maison médicale</h1>
         </div>
@@ -24,12 +26,9 @@
             <button onclick="Etage1()" class="BoutonBZHRouge">Etage 1</button>
 			<button onclick="Etage2()" class="BoutonBZHRouge">Etage 2</button>
        <!-- <img id="FondRDC" style="margin-left: 10%;" height="77%" width="77%" src="./Images/2024-03-22_16.33.00.png" alt="Imaginez une image de la maison médicale ">--> <!--3 Sections, une par étage.-->
-        <table id="RDC">
-			<thead>
-				<th><p></p></th>
-				<th><p></p></th>
-				<th style="border : 4px rgba(255, 218, 179) solid; border-radius : 15%"><h1>Rez de Chaussée</h1></th>
-			</thead>
+       <div id="RDC">
+        <h1 style="text-align: center;">Rez de Chaussée</h1> <!--RDC 1-->
+        <table class="RDC">
             <tbody>
                 <tr>
                     <td></td>
@@ -89,136 +88,134 @@
                 </tr>
             </tbody>
         </table>
-		<table id="Etage1">
-			<thead>
-				<th><p></p></th>
-				<th><p></p></th>
-				<th style="border : 4px rgba(255, 218, 179) solid; border-radius : 15%"><h1>Etage 1</h1></th>
-			</thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-		<table id="Etage2">
-			<thead>
-				<th><p></p></th>
-				<th><p></p></th>
-				<th style="border : 4px rgba(255, 218, 179) solid; border-radius : 15%"><h1>Etage 2</h1></th>
-			</thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+    </div>
+
+        <div id="Etage1">
+            <h1 style="text-align: center;">Etage 1</h1> <!--Etage 1-->
+		    <table class="etage1">
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p>Nan ya rien</p></td>
+                        <td><p>Nan ya rien</p></td>
+                        <td><p>Nan ya rien</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Nan ya rien</p></td>
+                        <td><p>Nan ya rien</p></td>
+                        <td><p>Nan ya rien</p></td>
+                        <td><p>Nan ya rien</p></td>
+                        <td><p>Nan ya rien</p></td>
+                        <td><p>Nan ya rien</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Etage2">
+            <h1 style="text-align: center;">Etage 2</h1> <!--Etage 1-->
+		    <table class="etage2">
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
     <!--Control-->
     <!--Control-->
