@@ -53,27 +53,16 @@ nav button:hover{
 
 /*Carte / Tableau*/
 
-#RDC {
-	background: url(../Images/2024-03-22_16.33.00.png) no-repeat;
-	border: 5px var(--Beige) solid;
-	display: none; 
-	margin:2%;
-}
 
-#RDC td{
-    width: 19.99%;/*155px*/
-    height: 100px;
-    border: 2px black solid;
 
-}
 
-#Etage1 th{
-	display:none;
+#Etage1{
+    display: none;
 }
 #Etage1 tbody{
 	background: url(../Images/Etage1.png) no-repeat;
+    background-size: cover;
 	border: 5px var(--Beige) solid;
-	display: none; 
 	margin:2%;
 }
 
@@ -81,21 +70,45 @@ nav button:hover{
 	width: 19.99%;/*155px*/
     height: 100px;
     border: 2px black solid;
-
-}
-#Etage2{
-	display:none;
-}
-#Etage2{
-	background: url(../Images/2024-03-22_16.33.00.png) no-repeat;
-	border: 5px var(--Beige) solid;
-	display: none; 
-	margin:2%;
+    /*background-color: orange;*/
+    color: white;
+    font-size: 100%;
 }
 
+#Etage1 tr :hover{
+    color: black;
+}
+
+/* Etage 2 */
+
+#Etage2{
+    display: none;
+}
+#Etage2 tbody{
+    background: url(../Images/2024-03-22_16.33.00.png) no-repeat; /*N'OUBLIE PAS DE CHANNGER AVEC LES PLANS DE L'ETAGE 2 QUAND TU LES AURAS !!!*/
+    background-size: cover;
+    border: 5px var(--Beige) solid;
+    margin:2%;
+}
 #Etage2 td{
 	width: 19.99%;/*155px*/
     height: 100px;
     border: 2px black solid;
+}
 
+/*Rez de chaussé */
+
+#RDC{
+    display: none;
+}
+#RDC tbody{
+    background: url(../Images/2024-03-22_16.33.00.png) no-repeat; /*N'OUBLIE PAS DE CHANNGER AVEC LES PLANS DE L'ETAGE 2 QUAND TU LES AURAS !!!*/
+    background-size: cover;
+    border: 5px var(--Beige) solid;
+    margin:2%;
+}
+#RDC td{
+	width: 19.99%;/*155px*/
+    height: 100px;
+    border: 2px black solid;
 }
