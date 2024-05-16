@@ -1,12 +1,20 @@
 :root{
     --Beige: rgba(255, 218, 179); /* Variable de couleur de fond */
     --BleuClair : rgba(42, 57, 144);
+	--BleuClairDegrader : rgba(201, 218, 248);
     --Bleu : rgba(33, 45, 116);
 }
 
 body{
     background: var(--Bleu);
     color: var(--Beige);
+}
+
+#Entete{
+	/*border: var(--BleuClairDegrader) 5px solid;*/	
+	padding : 5.5%;
+	background:linear-gradient(var(--BleuClairDegrader),var(--Bleu));
+	
 }
 
 #Titre{
@@ -17,7 +25,14 @@ body{
     border: 5px var(--Beige) solid;
     background: var(--BleuClair);
     border-radius: 100%;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
+}
+
+#Titre h1{
+	font-size : 45px;
+}
+#Titre h2{
+	font-size : 35px;
 }
 
 /* NAV */
