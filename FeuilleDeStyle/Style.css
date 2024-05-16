@@ -75,7 +75,7 @@ nav button:hover{
     display: none;
 }
 #Etage1 tbody{
-	background: url(../Images/etage1.png) no-repeat;
+	background: url(../Images/Etage1.png) no-repeat;
     background-size: cover;
 	border: 5px var(--Beige) solid;
 	margin:2%;
