@@ -60,7 +60,7 @@ function ReeducationKine2(){
 	}
 }
 function Terrasse(){
-	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5))
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
 	if (Temperature >= 23){
 		alert("Terrasse \n Personnes : " + Math.floor(Math.random()*6) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072 \n ⚠ IL FAIT TROP CHAUD !!!" )
 	}
