@@ -1,40 +1,115 @@
+function variables(){
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	return Temperature;
+}
 function precise(x) {
 	return x.toPrecision(4);
   }
 function Cabine1(){
-	alert("CABINE 1 \n \n Salle occupé : True/False \n Température : 23°C \n Taux de CO2 : 0.08%");
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	if (Temperature >= 23){
+		alert("Cabine 1 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n  ⚠ IL FAIT TROP CHAUD !!!")
+	}	
+	else{
+		alert("Cabine 1 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n ")
+	}
 }
 function Cabine23(){
-	alert("CABINE 2 ET 3 \n \n Salle occupé : True/False \n Température : 23°C \n Taux de CO2 : 0.08%");
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	if (Temperature >= 23){
+		alert("Cabine 2 et 3 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n  ⚠ IL FAIT TROP CHAUD !!!")
+	}	
+	else{
+		alert("Cabine 2 et 3 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n ")
+	}
 }
 function Cabine45(){
-	alert("CABINE 4 ET 5 \n \n Salle occupé : True/False \n Température : 22.99°C \n Taux de CO2 : 0.0788889987%");
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	if (Temperature >= 23){
+		alert("Cabine 4 et 5 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n  ⚠ IL FAIT TROP CHAUD !!!")
+	}	
+	else{
+		alert("Cabine 4 et 5 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n ")
+	}
 }
 function Cabine5(){
-	alert("CABINE 5 \n Salle occupé : True \n Température : 22.05 \n Taux de CO2 : 0.08999999999");
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	if (Temperature >= 23){
+		alert("Cabine 5 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n  ⚠ IL FAIT TROP CHAUD !!!")
+	}	
+	else{
+		alert("Cabine 5 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n ")
+	}
 }
 function Cabine34(){
-	alert("CABINE 3 ET 4 \n \n Salle occupé : True/False \n Température : 23°C \n Taux de CO2 : 0.08%");
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	if (Temperature >= 23){
+		alert("Cabine 3 et 4 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n  ⚠ IL FAIT TROP CHAUD !!!")
+	}	
+	else{
+		alert("Cabine 3 et 4 \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n ")
+	}
 }
 function ReeducationKine2(){
-	alert("Salle de Réeducation Kinésithérapeute \n \n Personnes dans la salle : 9 personnes \n Température : 23°C \n Taux de CO2 : 0.08%")
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5))
+	if (Temperature >= 23){
+		alert("Réeducation Kiné \n Personnes : " + Math.floor(Math.random()*8) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072 \n ⚠ IL FAIT TROP CHAUD !!!" )
+	}
+	else {
+		alert("Réeducation Kiné \n Personnes : " + Math.floor(Math.random()*8) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072")
+	}
 }
 function Terrasse(){
-	let personnes = Math.floor(Math.random() * 6);
-	alert("Terrasse \n \n Personnes : " + personnes );
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5))
+	if (Temperature >= 23){
+		alert("Terrasse \n Personnes : " + Math.floor(Math.random()*6) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072 \n ⚠ IL FAIT TROP CHAUD !!!" )
+	}
+	else {
+		alert("Terrasse \n Personnes : " + Math.floor(Math.random()*6) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072")
+	}
 }
 function Kinésithérapeute2(){
-	alert("Salles d'attentes \n  Personnes : " + Math.floor(Math.random() * 7) + " \n Temperature : 22.07°C \n Taux de C02 : 0.068");
-}
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5))
+	if (Temperature >= 23){
+		alert("Salle d'attente Kiné \n Personnes : " + Math.floor(Math.random()*7) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072 \n ⚠ IL FAIT TROP CHAUD !!!" )
+	}
+	else {
+		alert("Salle d'attente Kiné \n Personnes : " + Math.floor(Math.random()*7) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072")
+	}}
 function Osteopathe(){
-	alert("Salle Ostéo \n Personnes : " + Math.floor(Math.random()*3) + " \n Température : " + precise(Math.floor(20+Math.random() * 4)+Math.random(5)) +  "°C \n Taux de CO2 : 0.070" )
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5))
+	if (Temperature >= 23){
+		alert("Osthéopathe \n Personnes : " + Math.floor(Math.random()*3) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072 \n ⚠ IL FAIT TROP CHAUD !!!" )
+	}
+	else {
+		alert("Osthéopathe \n Personnes : " + Math.floor(Math.random()*3) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072")
+	}
 }
 function EspaceDetentePerso(){
-	alert("Espace de détente perso \n Personnes : " + Math.floor(Math.random()*13) + "\n Température : "  + precise(Math.floor(20+Math.random() * 4)+Math.random(5)) + "°C \n Taux de CO2 : 0.072" )
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5))
+	if (Temperature >= 23){
+		alert("Espace de détente perso \n Personnes : " + Math.floor(Math.random()*13) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072 \n ⚠ IL FAIT TROP CHAUD !!!" )
+	}
+	else {
+		alert("Espace de détente perso \n Personnes : " + Math.floor(Math.random()*13) + "\n Température : "  + Temperature + "°C \n Taux de CO2 : 0.072")
+	}
+	
 }
 function Infirmier(){
-	alert("Infirmier \n Personne : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Température : " + precise(Math.floor(20+Math.random() * 4)+Math.random(5)) + "°C \n Taux de CO2 : 0.071" );
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	if (Temperature >= 23){
+		alert("Ostheopathe \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n  ⚠ IL FAIT TROP CHAUD !!!")
+	}	
+	else{
+		alert("Ostheopathe \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n ")
+	}
 }
 function Sophrologue(){
-	alert("Sophrologue \n Personne : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Température : " + precise(Math.floor(20+Math.random() * 4)+Math.random(5)) + "°C \n Taux de CO2 : 0.071" );
+	let Temperature = precise(Math.floor(20+Math.random() * 4)+Math.random(5));
+	if (Temperature >= 23){
+		alert("Sophrologue \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n  ⚠ IL FAIT TROP CHAUD !!!")
+	}	
+	else{
+		alert("Sophrologue \n Personnes : " + Boolean(Math.floor(Math.random()*3)-1) + "\n Temperature : " + Temperature + "°C \n Taux de CO2 : 0.071 \n ")
+	}
 }
