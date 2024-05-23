@@ -74,7 +74,7 @@ nav button:hover{
 #Etage1{
     display: none;
 }
-#Etage1 tbody{
+#Etage1 table{
 	background: url(../Images/Etage1.png) no-repeat;
     background-size: cover;
 	border: 5px var(--Beige) solid;
