@@ -1,7 +1,7 @@
 :root{
     --Beige: rgba(255, 218, 179); /* Variable de couleur de fond */
     --BleuClair : rgba(42, 57, 144);
-	--BleuClairDegrader : rgba(201, 218, 248);
+    --BleuClairDegrader : rgba(201, 218, 248);
     --Bleu : rgba(33, 45, 116);
 }
 
@@ -84,7 +84,7 @@ nav button:hover{
 #Etage1 td{
 	width: 19.99%;/*155px*/
     height: 100px;
-    border: 2px black solid;
+    /*border: 2px black solid;*/
     /*background-color: orange;*/
     color: white;
     font-size: 100%;
